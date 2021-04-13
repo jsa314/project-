@@ -123,10 +123,13 @@ while(flag==True):
         print("Bot: I'm sorry, I don't understand")
   
     elif(userinput=="off tanks"):
-      print("Bot: {}".format(offtanks))
+      print("Bot: {} or random".format(offtanks))
       print("Bot: What off tank you would like to learn about?")
       userinput=input()
       userinput=userinput.lower()
+      if(userinput=="random"):
+        userinput=random.choice(offtanks)
+        userinput=userinput.lower()
       if(userinput=="zarya"):
         print("Bot: Deploying powerful personal barriers that convert incoming damage into energy for her massive Particle Cannon, Zarya is an invaluable asset on the front lines of any battle.")
         print("Bot: What would you like to know about Zarya? (Health, difficulty)")
