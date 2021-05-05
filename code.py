@@ -4,35 +4,35 @@ import random
 #tank lists used to store info about tanks
 dvalist={
   "name":"D.Va",
-  "health":"400 health and 200 armour in mech and 150 health out of mech",
+  "health":600,
   "difficulty":"medium"}
 orisalist={
   "name":"Orisa",
-  "health":"200 health and 200 armour",
+  "health":400,
   "difficulty":"medium"}
 reinlist={
   "name":"Reinhardt",
-  "health":"300 health and 200 armour",
+  "health":500,
   "difficulty":"easy"}
 hoglist={
   "name":"Roadhog",
-  "health":"600 health",
+  "health":600,
   "difficulty":"easy"}
 sigmalist={
   "name":"Sigma",
-  "health":"300 health and 100 shield",
+  "health":400,
   "difficulty":"hard"}
 winstonlist={
   "name":"Winston",
-  "health":"400 health and 100 armour",
+  "health":500,
   "difficulty":"medium"}
 balllist={
   "name":"Wrecking Ball",
-  "health":"500 health and 100 armour",
+  "health":600,
   "difficulty":"hard"}
 zaryalist={
   "name":"Zarya",
-  "health":"200 health and 200 shield",
+  "health":400,
   "difficulty":"hard"}
 #main and off tank lists and data
 maintanks=["Reinhardt","Winston","Orisa","Wrecking Ball"]
@@ -81,7 +81,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: Reinhardt has {}".format(reinH))
+          print("Bot: Reinhardt has {} health".format(reinH))
         elif(userinput=="difficulty"):
           print("Bot: Reinhardt is {} difficulty to play".format(reinD))
         else:
@@ -92,7 +92,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: Winston has {}".format(winstonH))
+          print("Bot: Winston has {} health".format(winstonH))
         elif(userinput=="difficulty"):
           print("Bot: Winston is {} difficulty to play".format(winstonD))
         else:
@@ -103,7 +103,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: Orisa has {}".format(orisaH))
+          print("Bot: Orisa has {} health".format(orisaH))
         elif(userinput=="difficulty"):
           print("Bot: Orisa is {} difficulty to play".format(orisaD))
         else:
@@ -114,7 +114,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: Wrecking Ball has {}".format(ballH))
+          print("Bot: Wrecking Ball has {} health".format(ballH))
         elif(userinput=="difficulty"):
           print("Bot: Wrecking Ball is {} difficulty to play".format(ballD))
         else:
@@ -136,7 +136,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: Zarya has {}".format(zaryaH))
+          print("Bot: Zarya has {} health".format(zaryaH))
         elif(userinput=="difficulty"):
           print("Bot: Zarya is {} difficulty to play".format(zaryaD))
         else:
@@ -148,7 +148,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: D.Va has {}".format(dvaH))
+          print("Bot: D.Va has {} health".format(dvaH))
         elif(userinput=="difficulty"):
           print("Bot: D.Va is {} difficulty to play".format(dvaD))
         else:
@@ -159,7 +159,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: Roadhog has {}".format(dvaH))
+          print("Bot: Roadhog has {} health".format(dvaH))
         elif(userinput=="difficulty"):
           print("Bot: Roadhog is {} difficulty to play".format(hogD))
         else:
@@ -170,7 +170,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: Sigma has {}".format(sigmaH))
+          print("Bot: Sigma has {} health".format(sigmaH))
         elif(userinput=="difficulty"):
           print("Bot: Sigma is {} difficulty to play".format(sigmaD))
         else:
