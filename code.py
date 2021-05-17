@@ -64,7 +64,7 @@ while(flag==True):
   userinput=input()
   userinput=userinput.lower()
 
-  #tests for using user saying bye and stops code
+  #tests for user saying bye and stops code
   if(userinput!="bye"):
     if(userinput=="thanks" or userinput=="thank you"):
       flag=False
@@ -123,7 +123,7 @@ while(flag==True):
       #wrecking ball options
       elif(userinput=="wrecking ball"):
         print("Bot: Wrecking Ball rolls across the battlefield, using his arsenal of weapons and his mech’s powerful body to crush his enemies.")
-        print("Bot: What would you like to know about Wrecking Ball? (Health, difficulty)")
+        print("Bot: What would you like to know about Wrecking Ball? (Health, difficulty)") 
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
@@ -202,7 +202,7 @@ while(flag==True):
     else:
       print("Bot: I'm sorry, I don't understand")
     print("Bot: Hi what type of tanks would you like to know about? (Main Tanks or Off Tanks)")
-    
+
   else:
     flag=False
     print("Bot: Bye")
