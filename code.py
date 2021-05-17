@@ -179,7 +179,7 @@ while(flag==True):
         userinput=input()
         userinput=userinput.lower()
         if(userinput=="health"):
-          print("Bot: Roadhog has {} health".format(dvaH))
+          print("Bot: Roadhog has {} health".format(hogH))
         elif(userinput=="difficulty"):
           print("Bot: Roadhog is {} difficulty to play".format(hogD))
         else:
