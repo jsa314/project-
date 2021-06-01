@@ -76,6 +76,7 @@ while(flag==True):
       print("Bot: {} or random".format(maintanks))
       print("Bot: What main tank you would like to learn about?")
       userinput=input()
+        
       userinput=userinput.lower()
       if(userinput=="random"):
         userinput=random.choice(maintanks)
